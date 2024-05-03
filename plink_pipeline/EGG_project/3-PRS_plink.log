@@ -1,0 +1,44 @@
+PLINK v2.00a5.8 64-bit (21 Nov 2023)           www.cog-genomics.org/plink/2.0/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /home/s.defina/EGG/results/PRS_CAD_eur.log.
+Options in effect:
+  --bfile /home/s.defina/EGG/results/all_autosomal_eur
+  --out /home/s.defina/EGG/results/PRS_CAD_eur
+  --score /home/s.defina/EGG/PGS-CAD.QC.txt 2 5 7 header ignore-dup-ids cols=+scoresums list-variants
+
+Start time: Wed Jan 24 15:53:09 2024
+515342 MiB RAM detected, ~381967 available; reserving 257671 MiB for main
+workspace.
+Using up to 2 compute threads.
+4273 samples (0 females, 0 males, 4273 ambiguous; 4273 founders) loaded from
+/home/s.defina/EGG/results/all_autosomal_eur.fam.
+9441564 variants loaded from /home/s.defina/EGG/results/all_autosomal_eur.bim.
+Note: No phenotype data present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+--score: 10k variants processed.--score: 20k variants processed.--score: 30k variants processed.--score: 40k variants processed.--score: 50k variants processed.--score: 60k variants processed.--score: 70k variants processed.--score: 80k variants processed.--score: 90k variants processed.--score: 100k variants processed.--score: 110k variants processed.--score: 120k variants processed.--score: 130k variants processed.--score: 140k variants processed.--score: 150k variants processed.--score: 160k variants processed.--score: 170k variants processed.--score: 180k variants processed.--score: 190k variants processed.--score: 200k variants processed.--score: 210k variants processed.--score: 220k variants processed.--score: 230k variants processed.--score: 240k variants processed.--score: 250k variants processed.--score: 260k variants processed.--score: 270k variants processed.--score: 280k variants processed.--score: 290k variants processed.--score: 300k variants processed.--score: 310k variants processed.--score: 320k variants processed.--score: 330k variants processed.--score: 340k variants processed.--score: 350k variants processed.--score: 360k variants processed.--score: 370k variants processed.--score: 380k variants processed.--score: 390k variants processed.--score: 400k variants processed.--score: 410k variants processed.--score: 420k variants processed.--score: 430k variants processed.--score: 440k variants processed.--score: 450k variants processed.--score: 460k variants processed.--score: 470k variants processed.--score: 480k variants processed.--score: 490k variants processed.--score: 500k variants processed.--score: 510k variants processed.--score: 520k variants processed.--score: 530k variants processed.--score: 540k variants processed.--score: 550k variants processed.--score: 560k variants processed.--score: 570k variants processed.--score: 580k variants processed.--score: 590k variants processed.--score: 600k variants processed.--score: 610k variants processed.--score: 620k variants processed.--score: 630k variants processed.--score: 640k variants processed.--score: 650k variants processed.--score: 660k variants processed.--score: 670k variants processed.--score: 680k variants processed.--score: 690k variants processed.--score: 700k variants processed.--score: 710k variants processed.--score: 720k variants processed.--score: 730k variants processed.--score: 740k variants processed.--score: 750k variants processed.--score: 760k variants processed.--score: 770k variants processed.--score: 780k variants processed.--score: 790k variants processed.--score: 800k variants processed.--score: 810k variants processed.--score: 820k variants processed.--score: 830k variants processed.--score: 840k variants processed.--score: 850k variants processed.--score: 860k variants processed.--score: 870k variants processed.--score: 880k variants processed.--score: 890k variants processed.--score: 900k variants processed.--score: 910k variants processed.--score: 920k variants processed.--score: 930k variants processed.--score: 940k variants processed.--score: 950k variants processed.--score: 960k variants processed.--score: 970k variants processed.--score: 980k variants processed.--score: 990k variants processed.--score: 1000k variants processed.--score: 1010k variants processed.--score: 1020k variants processed.--score: 1030k variants processed.--score: 1040k variants processed.--score: 1050k variants processed.--score: 1060k variants processed.--score: 1070k variants processed.--score: 1080k variants processed.--score: 1090k variants processed.--score: 1100k variants processed.--score: 1110k variants processed.--score: 1120k variants processed.--score: 1130k variants processed.--score: 1140k variants processed.--score: 1150k variants processed.--score: 1160k variants processed.--score: 1170k variants processed.--score: 1180k variants processed.--score: 1190k variants processed.--score: 1200k variants processed.--score: 1210k variants processed.--score: 1220k variants processed.Warning: 515120 --score file entries were skipped due to missing variant IDs.
+--score: 1228859 variants processed.
+Variant list written to /home/s.defina/EGG/results/PRS_CAD_eur.sscore.vars .
+--score: Results written to /home/s.defina/EGG/results/PRS_CAD_eur.sscore .
+End time: Wed Jan 24 15:53:45 2024
+PLINK v2.00a5.8 64-bit (21 Nov 2023)           www.cog-genomics.org/plink/2.0/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /home/s.defina/EGG/results/PRS_T2D_eur.log.
+Options in effect:
+  --bfile /home/s.defina/EGG/results/all_autosomal_eur
+  --out /home/s.defina/EGG/results/PRS_T2D_eur
+  --score /home/s.defina/EGG/PGS-T2D.QC.txt 2 5 7 header ignore-dup-ids cols=+scoresums list-variants
+
+Start time: Wed Jan 24 15:53:45 2024
+515342 MiB RAM detected, ~392972 available; reserving 257671 MiB for main
+workspace.
+Using up to 2 compute threads.
+4273 samples (0 females, 0 males, 4273 ambiguous; 4273 founders) loaded from
+/home/s.defina/EGG/results/all_autosomal_eur.fam.
+9441564 variants loaded from /home/s.defina/EGG/results/all_autosomal_eur.bim.
+Note: No phenotype data present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+--score: 10k variants processed.--score: 20k variants processed.--score: 30k variants processed.--score: 40k variants processed.--score: 50k variants processed.Warning: 115351 --score file entries were skipped due to missing variant IDs.
+--score: 55898 variants processed.
+Variant list written to /home/s.defina/EGG/results/PRS_T2D_eur.sscore.vars .
+--score: Results written to /home/s.defina/EGG/results/PRS_T2D_eur.sscore .
+End time: Wed Jan 24 15:53:55 2024

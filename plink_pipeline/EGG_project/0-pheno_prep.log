@@ -1,0 +1,136 @@
+
+GENETIC DATA FILE
+     PARENT           Type      NonEuropean       C1            
+ Min.   :    1   Mother :7236   0:8256      Min.   :-0.0342916  
+ 1st Qu.: 3676   Partner:4440   1:3420      1st Qu.:-0.0285576  
+ Median : 7394                              Median :-0.0263199  
+ Mean   : 9017                              Mean   :-0.0000424  
+ 3rd Qu.:15382                              3rd Qu.: 0.0132262  
+ Max.   :19726                              Max.   : 0.1753690  
+       C2                   C3                   C4            
+ Min.   :-1.460e-01   Min.   :-5.141e-02   Min.   :-5.354e-02  
+ 1st Qu.: 5.095e-03   1st Qu.:-2.305e-03   1st Qu.:-2.060e-03  
+ Median : 7.875e-03   Median : 6.881e-03   Median :-5.590e-06  
+ Mean   :-3.990e-06   Mean   :-1.209e-05   Mean   :-1.075e-05  
+ 3rd Qu.: 9.820e-03   3rd Qu.: 9.291e-03   3rd Qu.: 1.807e-03  
+ Max.   : 2.905e-02   Max.   : 3.106e-02   Max.   : 4.976e-02  
+       C5                   C6                   C7            
+ Min.   :-3.102e-02   Min.   :-1.172e-01   Min.   :-1.787e-02  
+ 1st Qu.:-1.857e-03   1st Qu.:-1.380e-03   1st Qu.:-2.199e-03  
+ Median : 5.835e-04   Median : 3.468e-05   Median :-5.927e-04  
+ Mean   : 1.322e-05   Mean   : 4.370e-06   Mean   : 1.750e-06  
+ 3rd Qu.: 2.357e-03   3rd Qu.: 1.473e-03   3rd Qu.: 9.923e-04  
+ Max.   : 3.307e-02   Max.   : 3.200e-02   Max.   : 6.821e-02  
+       C8                   C9                  C10            
+ Min.   :-1.479e-02   Min.   :-3.484e-02   Min.   :-3.079e-02  
+ 1st Qu.:-1.951e-03   1st Qu.:-1.141e-03   1st Qu.:-1.911e-03  
+ Median :-2.596e-04   Median : 1.057e-03   Median : 7.399e-04  
+ Mean   : 4.710e-06   Mean   :-8.500e-07   Mean   :-8.753e-06  
+ 3rd Qu.: 1.447e-03   3rd Qu.: 2.629e-03   3rd Qu.: 2.484e-03  
+ Max.   : 6.969e-02   Max.   : 1.894e-02   Max.   : 3.005e-02  
+
+PHENOTYPE DATA FILE
+      IDM             IDC            MOTHER        PARTNER       PARTBF    
+ Min.   :    1   Min.   :    1   Min.   :   1   Min.   :10001   No  :   0  
+ 1st Qu.: 2617   1st Qu.: 2476   1st Qu.:2270   1st Qu.:12487   Yes :5482  
+ Median : 5229   Median : 4952   Median :4660   Median :14949   NA's:4419  
+ Mean   : 5225   Mean   : 4954   Mean   :4741   Mean   :14950              
+ 3rd Qu.: 7857   3rd Qu.: 7427   3rd Qu.:7198   3rd Qu.:17416              
+ Max.   :10399   Max.   :10634   Max.   :9708   Max.   :19901              
+                                                                           
+     PARITY         TWIN       GENDER        GESTBIR          WEIGHT    
+ Min.   :0.0000   No  :9610   boy :4937   Min.   :19.86   Min.   : 150  
+ 1st Qu.:0.0000   Yes : 246   girl:4808   1st Qu.:39.00   1st Qu.:3050  
+ Median :0.0000   NA's:  45   NA's: 156   Median :40.00   Median :3410  
+ Mean   :0.6584                           Mean   :39.70   Mean   :3385  
+ 3rd Qu.:1.0000                           3rd Qu.:41.00   3rd Qu.:3750  
+ Max.   :9.0000                           Max.   :43.71   Max.   :5610  
+ NA's   :380                              NA's   :242     NA's   :238   
+    PLAWGHT      
+ Min.   : 150.0  
+ 1st Qu.: 535.0  
+ Median : 620.0  
+ Mean   : 634.5  
+ 3rd Qu.: 720.0  
+ Max.   :1220.0  
+ NA's   :3690    
+
+==================================
+EUROPEANS
+==================================
+
+============= MOTHER =============
+646 duplicated parent IDs. (Orig: 7882 - 7236 )
+
+Only term births (37-42 weeks): 
+7882 - 1034 = 6848
+
+Only non-twin first-born: 
+6848 - 3315 = 3533
+
+Only (non-)/Europeans: 
+3533 - 1030 = 2503
+
+Available birthweight and placental weight: 
+B.weight:  3533 - 1039 = 2494 
+Placent.:  3533 - 1687 = 1846
+
+Remaining duplicates:  0 0 
+
+============= PARTNER =============
+392 duplicated parent IDs. (Orig: 4832 - 4440 )
+
+Only term births (37-42 weeks): 
+4832 - 639 = 4193
+
+Only non-twin first-born: 
+4193 - 1767 = 2426
+
+Only (non-)/Europeans: 
+2426 - 551 = 1875
+
+Available birthweight and placental weight: 
+B.weight:  2426 - 557 = 1869 
+Placent.:  2426 - 1044 = 1382
+
+Remaining duplicates:  0 0 
+
+==================================
+NON-EUROPEANS
+==================================
+
+============= MOTHER =============
+646 duplicated parent IDs. (Orig: 7882 - 7236 )
+
+Only term births (37-42 weeks): 
+7882 - 1034 = 6848
+
+Only non-twin first-born: 
+6848 - 3315 = 3533
+
+Only (non-)/Europeans: 
+3533 - 2503 = 1030
+
+Available birthweight and placental weight: 
+B.weight:  3533 - 2514 = 1019 
+Placent.:  3533 - 2770 = 763
+
+Remaining duplicates:  0 0 
+
+============= PARTNER =============
+392 duplicated parent IDs. (Orig: 4832 - 4440 )
+
+Only term births (37-42 weeks): 
+4832 - 639 = 4193
+
+Only non-twin first-born: 
+4193 - 1767 = 2426
+
+Only (non-)/Europeans: 
+2426 - 1875 = 551
+
+Available birthweight and placental weight: 
+B.weight:  2426 - 1882 = 544 
+Placent.:  2426 - 2005 = 421
+
+Remaining duplicates:  0 0 

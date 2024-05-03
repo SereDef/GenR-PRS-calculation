@@ -1,0 +1,392 @@
+CAD ~ BW in eur moms ----------------------------------------
+
+N = 2491 
+
+BW summary:
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   1390    3100    3400    3416    3720    5100 
+
+BW SD = 472.67
+
+PRS score summary:
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+      0       0       0       0       0       0      59 
+
+PRS score SD = 0 
+
+formula:  bw_zscore ~ PRS_zscore + GENDER + GESTBIR + C1 + C2 + C3 + C4 + C5 + C6 + C7 + C8 + C9 + C10 
+
+Call:
+lm(formula = as.formula(f), data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.5405 -0.5833 -0.0309  0.5798  3.7347 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -14.50459    0.66427 -21.835  < 2e-16 ***
+PRS_zscore   -0.03740    0.01840  -2.032  0.04222 *  
+GENDERgirl   -0.18999    0.03648  -5.209 2.06e-07 ***
+GESTBIR       0.36520    0.01594  22.907  < 2e-16 ***
+C1            3.75370    8.34074   0.450  0.65272    
+C2            3.68127    4.69695   0.784  0.43326    
+C3           14.41874    5.41810   2.661  0.00784 ** 
+C4            9.59275    5.96804   1.607  0.10811    
+C5          -14.03869    7.19373  -1.952  0.05111 .  
+C6           -7.70569    7.69003  -1.002  0.31643    
+C7           -0.57933    9.07191  -0.064  0.94909    
+C8            2.17790    8.94337   0.244  0.80762    
+C9            0.02777    5.36062   0.005  0.99587    
+C10          -1.49669    6.61289  -0.226  0.82096    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.8964 on 2418 degrees of freedom
+  (59 observations deleted due to missingness)
+Multiple R-squared:  0.1962,	Adjusted R-squared:  0.1919 
+F-statistic: 45.41 on 13 and 2418 DF,  p-value: < 2.2e-16
+
+T2D ~ BW in eur moms ----------------------------------------
+
+N = 2491 
+
+BW summary:
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   1390    3100    3400    3416    3720    5100 
+
+BW SD = 472.67
+
+PRS score summary:
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max.     NA's 
+-0.01128 -0.01117 -0.01113 -0.01113 -0.01110 -0.01092       59 
+
+PRS score SD = 0 
+
+formula:  bw_zscore ~ PRS_zscore + GENDER + GESTBIR + C1 + C2 + C3 + C4 + C5 + C6 + C7 + C8 + C9 + C10 
+
+Call:
+lm(formula = as.formula(f), data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.5196 -0.5862 -0.0309  0.5811  3.7456 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -14.53752    0.66458 -21.875  < 2e-16 ***
+PRS_zscore    0.02520    0.01869   1.348  0.17774    
+GENDERgirl   -0.19216    0.03648  -5.268  1.5e-07 ***
+GESTBIR       0.36618    0.01595  22.951  < 2e-16 ***
+C1            4.13880    8.35124   0.496  0.62023    
+C2            4.34942    4.68654   0.928  0.35347    
+C3           14.53947    5.42113   2.682  0.00737 ** 
+C4            9.66595    5.97117   1.619  0.10563    
+C5          -15.22505    7.20145  -2.114  0.03460 *  
+C6           -7.19880    7.68807  -0.936  0.34918    
+C7           -0.57336    9.07632  -0.063  0.94964    
+C8            3.14011    8.93924   0.351  0.72541    
+C9            0.13979    5.36410   0.026  0.97921    
+C10          -1.39890    6.61594  -0.211  0.83256    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.8968 on 2418 degrees of freedom
+  (59 observations deleted due to missingness)
+Multiple R-squared:  0.1955,	Adjusted R-squared:  0.1911 
+F-statistic: 45.19 on 13 and 2418 DF,  p-value: < 2.2e-16
+
+CAD ~ BW in eur dads ----------------------------------------
+
+N = 1868 
+
+BW summary:
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   1730    3130    3425    3437    3740    5170 
+
+BW SD = 467.708
+
+PRS score summary:
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0e+00   0e+00   1e-06   1e-06   1e-06   1e-06      27 
+
+PRS score SD = 0 
+
+formula:  bw_zscore ~ PRS_zscore + GENDER + GESTBIR + C1 + C2 + C3 + C4 + C5 + C6 + C7 + C8 + C9 + C10 
+
+Call:
+lm(formula = as.formula(f), data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.2868 -0.6013 -0.0268  0.6029  3.9898 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -14.11628    0.77121 -18.304  < 2e-16 ***
+PRS_zscore   -0.04091    0.02137  -1.915  0.05569 .  
+GENDERgirl   -0.18288    0.04240  -4.314 1.69e-05 ***
+GESTBIR       0.35719    0.01853  19.273  < 2e-16 ***
+C1           -0.99594   10.23065  -0.097  0.92246    
+C2           -1.74012    6.01301  -0.289  0.77231    
+C3            7.03805    6.77949   1.038  0.29934    
+C4           -0.14658    8.41942  -0.017  0.98611    
+C5            2.70491    9.64188   0.281  0.77910    
+C6           -9.60551   11.93252  -0.805  0.42093    
+C7           17.02582   11.63845   1.463  0.14367    
+C8           12.68334   10.71382   1.184  0.23663    
+C9          -43.08498   14.35395  -3.002  0.00272 ** 
+C10         -15.97182   12.88909  -1.239  0.21544    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.9061 on 1827 degrees of freedom
+  (27 observations deleted due to missingness)
+Multiple R-squared:  0.1876,	Adjusted R-squared:  0.1818 
+F-statistic: 32.45 on 13 and 1827 DF,  p-value: < 2.2e-16
+
+T2D ~ BW in eur dads ----------------------------------------
+
+N = 1868 
+
+BW summary:
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   1730    3130    3425    3437    3740    5170 
+
+BW SD = 467.708
+
+PRS score summary:
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max.     NA's 
+-0.01131 -0.01116 -0.01113 -0.01113 -0.01110 -0.01094       27 
+
+PRS score SD = 0 
+
+formula:  bw_zscore ~ PRS_zscore + GENDER + GESTBIR + C1 + C2 + C3 + C4 + C5 + C6 + C7 + C8 + C9 + C10 
+
+Call:
+lm(formula = as.formula(f), data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.4189 -0.5940 -0.0361  0.5975  3.9843 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -14.14809    0.77169 -18.334  < 2e-16 ***
+PRS_zscore   -0.03100    0.02183  -1.420   0.1559    
+GENDERgirl   -0.18120    0.04242  -4.272 2.04e-05 ***
+GESTBIR       0.35762    0.01854  19.287  < 2e-16 ***
+C1           -1.23506   10.23603  -0.121   0.9040    
+C2           -0.45520    6.00525  -0.076   0.9396    
+C3            7.29950    6.79259   1.075   0.2827    
+C4            0.11892    8.42267   0.014   0.9887    
+C5            2.81882    9.64584   0.292   0.7701    
+C6           -9.25239   11.94053  -0.775   0.4385    
+C7           16.23223   11.63526   1.395   0.1632    
+C8           12.91941   10.72037   1.205   0.2283    
+C9          -42.98645   14.36085  -2.993   0.0028 ** 
+C10         -16.89351   12.89012  -1.311   0.1902    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.9065 on 1827 degrees of freedom
+  (27 observations deleted due to missingness)
+Multiple R-squared:  0.1868,	Adjusted R-squared:  0.181 
+F-statistic: 32.29 on 13 and 1827 DF,  p-value: < 2.2e-16
+
+CAD ~ PW in eur moms ----------------------------------------
+
+N = 1846 
+
+PW summary:
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  265.0   540.0   620.0   633.2   709.0  1220.0 
+
+PW SD = 137.567
+
+PRS score summary:
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+      0       0       0       0       0       0      38 
+
+PRS score SD = 0 
+
+formula:  pw_zscore ~ PRS_zscore + GENDER + GESTBIR + C1 + C2 + C3 + C4 + C5 + C6 + C7 + C8 + C9 + C10 
+
+Call:
+lm(formula = as.formula(f), data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2.4842 -0.6541 -0.1062  0.5866  3.8794 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  -8.06845    0.83784  -9.630   <2e-16 ***
+PRS_zscore   -0.01623    0.02320  -0.699    0.484    
+GENDERgirl   -0.05414    0.04603  -1.176    0.240    
+GESTBIR       0.19955    0.02011   9.921   <2e-16 ***
+C1           -2.13220   10.52209  -0.203    0.839    
+C2           -0.02105    5.82958  -0.004    0.997    
+C3            8.83919    6.91140   1.279    0.201    
+C4            8.97767    7.13691   1.258    0.209    
+C5          -14.04442    8.84836  -1.587    0.113    
+C6          -10.25125    9.52901  -1.076    0.282    
+C7            9.92717   11.27863   0.880    0.379    
+C8           -4.14519   11.15995  -0.371    0.710    
+C9           -7.47941    6.75303  -1.108    0.268    
+C10           0.84414    8.35813   0.101    0.920    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.9747 on 1794 degrees of freedom
+  (38 observations deleted due to missingness)
+Multiple R-squared:  0.06038,	Adjusted R-squared:  0.05357 
+F-statistic: 8.868 on 13 and 1794 DF,  p-value: < 2.2e-16
+
+T2D ~ PW in eur moms ----------------------------------------
+
+N = 1846 
+
+PW summary:
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  265.0   540.0   620.0   633.2   709.0  1220.0 
+
+PW SD = 137.567
+
+PRS score summary:
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max.     NA's 
+-0.01128 -0.01117 -0.01113 -0.01113 -0.01110 -0.01092       38 
+
+PRS score SD = 0 
+
+formula:  pw_zscore ~ PRS_zscore + GENDER + GESTBIR + C1 + C2 + C3 + C4 + C5 + C6 + C7 + C8 + C9 + C10 
+
+Call:
+lm(formula = as.formula(f), data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2.4405 -0.6574 -0.1061  0.5731  3.8882 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  -8.06957    0.83748  -9.636   <2e-16 ***
+PRS_zscore    0.03269    0.02352   1.390   0.1648    
+GENDERgirl   -0.05605    0.04595  -1.220   0.2227    
+GESTBIR       0.19985    0.02010   9.941   <2e-16 ***
+C1           -1.68033   10.52189  -0.160   0.8731    
+C2            0.08203    5.81447   0.014   0.9887    
+C3            8.93869    6.90759   1.294   0.1958    
+C4            8.95003    7.13291   1.255   0.2097    
+C5          -14.88464    8.84194  -1.683   0.0925 .  
+C6          -10.23220    9.51937  -1.075   0.2826    
+C7            9.84407   11.27374   0.873   0.3827    
+C8           -3.67289   11.14335  -0.330   0.7417    
+C9           -7.33469    6.75113  -1.086   0.2774    
+C10           0.94437    8.35487   0.113   0.9100    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.9743 on 1794 degrees of freedom
+  (38 observations deleted due to missingness)
+Multiple R-squared:  0.06113,	Adjusted R-squared:  0.05433 
+F-statistic: 8.986 on 13 and 1794 DF,  p-value: < 2.2e-16
+
+CAD ~ PW in eur dads ----------------------------------------
+
+N = 1382 
+
+PW summary:
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  294.0   550.0   630.0   639.1   717.2  1200.0 
+
+PW SD = 140.601
+
+PRS score summary:
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0e+00   0e+00   1e-06   1e-06   1e-06   1e-06      18 
+
+PRS score SD = 0 
+
+formula:  pw_zscore ~ PRS_zscore + GENDER + GESTBIR + C1 + C2 + C3 + C4 + C5 + C6 + C7 + C8 + C9 + C10 
+
+Call:
+lm(formula = as.formula(f), data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2.5963 -0.6530 -0.1022  0.5867  3.4580 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  -7.219482   0.981789  -7.353 3.34e-13 ***
+PRS_zscore    0.006324   0.026724   0.237  0.81296    
+GENDERgirl   -0.052789   0.053081  -0.995  0.32015    
+GESTBIR       0.190458   0.023313   8.170 7.04e-16 ***
+C1            8.312219  13.118591   0.634  0.52644    
+C2           -2.517274   7.743210  -0.325  0.74516    
+C3            2.247161   8.629984   0.260  0.79460    
+C4           17.209967  10.160866   1.694  0.09054 .  
+C5            7.078365  11.952624   0.592  0.55381    
+C6          -18.562635  14.897230  -1.246  0.21296    
+C7           11.382764  14.475051   0.786  0.43179    
+C8            8.106444  13.430966   0.604  0.54624    
+C9          -55.889326  17.839219  -3.133  0.00177 ** 
+C10         -14.455500  16.001480  -0.903  0.36648    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.9752 on 1350 degrees of freedom
+  (18 observations deleted due to missingness)
+Multiple R-squared:  0.06093,	Adjusted R-squared:  0.05188 
+F-statistic: 6.738 on 13 and 1350 DF,  p-value: 1.144e-12
+
+T2D ~ PW in eur dads ----------------------------------------
+
+N = 1382 
+
+PW summary:
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  294.0   550.0   630.0   639.1   717.2  1200.0 
+
+PW SD = 140.601
+
+PRS score summary:
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max.     NA's 
+-0.01131 -0.01117 -0.01113 -0.01113 -0.01110 -0.01094       18 
+
+PRS score SD = 0 
+
+formula:  pw_zscore ~ PRS_zscore + GENDER + GESTBIR + C1 + C2 + C3 + C4 + C5 + C6 + C7 + C8 + C9 + C10 
+
+Call:
+lm(formula = as.formula(f), data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2.5602 -0.6541 -0.0992  0.5776  3.4272 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  -7.22956    0.98076  -7.371 2.93e-13 ***
+PRS_zscore   -0.04351    0.02728  -1.595   0.1109    
+GENDERgirl   -0.05221    0.05303  -0.984   0.3251    
+GESTBIR       0.19044    0.02329   8.177 6.64e-16 ***
+C1            8.17303   13.10624   0.624   0.5330    
+C2           -2.00934    7.72987  -0.260   0.7949    
+C3            3.15443    8.63803   0.365   0.7150    
+C4           17.42567   10.15242   1.716   0.0863 .  
+C5            6.65422   11.94374   0.557   0.5775    
+C6          -18.21080   14.88501  -1.223   0.2214    
+C7           11.54020   14.45240   0.798   0.4247    
+C8            8.77252   13.42524   0.653   0.5136    
+C9          -55.74496   17.82155  -3.128   0.0018 ** 
+C10         -14.57218   15.98645  -0.912   0.3622    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.9743 on 1350 degrees of freedom
+  (18 observations deleted due to missingness)
+Multiple R-squared:  0.06266,	Adjusted R-squared:  0.05363 
+F-statistic: 6.941 on 13 and 1350 DF,  p-value: 3.833e-13
+

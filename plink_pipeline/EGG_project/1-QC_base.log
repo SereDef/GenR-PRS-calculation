@@ -1,0 +1,79 @@
+ 
+======================== CLEANING BASE FILE(S) ========================
+ 
+###PGS CATALOG SCORING FILE - see https://www.pgscatalog.org/downloads/#dl_ftp_scoring for additional information
+#format_version=2.0
+##POLYGENIC SCORE (PGS) INFORMATION
+#pgs_id=PGS000018
+#pgs_name=metaGRS_CAD
+#trait_reported=Coronary artery disease
+#trait_mapped=coronary artery disease
+#trait_efo=EFO_0001645
+#weight_type=NR
+#genome_build=hg19
+#variants_number=1745180
+##SOURCE INFORMATION
+#pgp_id=PGP000007
+#citation=Inouye M et al. J Am Coll Cardiol (2018). doi:10.1016/j.jacc.2018.07.079
+rsID	chr_name	chr_position	effect_allele	other_allele	effect_weight
+rs2843152	1	2245570	G	C	-2.76009e-02
+rs35465346	1	22132518	G	A	2.39340e-02
+rs28470722	1	38386727	G	A	-1.74935e-02
+ 
+Original file size:
+1745194
+Duplicates removed. New file size:
+1745194
+Ambiguous SNPs removed. New file size:
+1743994
+Final number of rows:
+1743980
+ 
+Overlapping SNPs removed. 'no_overlap' file size:
+1743980
+ 
+rsID	chr_name:chr_position:effect_allele:other_allele	chr_name	chr_position	effect_allele	other_allele	effect_weight
+rs35465346	1:22132518:G:A	1	22132518	G	A	2.39340e-02
+rs28470722	1:38386727:G:A	1	38386727	G	A	-1.74935e-02
+rs11206510	1:55496039:T:C	1	55496039	T	C	2.93005e-02
+rs9970807	1:56965664:C:T	1	56965664	C	T	4.70027e-02
+ 
+ 
+###PGS CATALOG SCORING FILE - see https://www.pgscatalog.org/downloads/#dl_ftp_scoring for additional information
+#format_version=2.0
+##POLYGENIC SCORE (PGS) INFORMATION
+#pgs_id=PGS000036
+#pgs_name=gePS_T2D
+#trait_reported=Type 2 diabetes (T2D)
+#trait_mapped=type 2 diabetes mellitus
+#trait_efo=MONDO_0005148
+#weight_type=NR
+#genome_build=GRCh37
+#variants_number=171249
+##SOURCE INFORMATION
+#pgp_id=PGP000023
+#citation=Mahajan A et al. Nat Genet (2018). doi:10.1038/s41588-018-0241-6
+rsID	chr_name	chr_position	effect_allele	other_allele	effect_weight	OR
+rs143735118	1	848671	A	G	-0.10629984557896312	0.899155
+rs141958931	1	868683	T	C	-0.08919958755886162	0.914663
+rs62639981	1	902108	T	C	0.11290002201544962	1.11952
+ 
+Original file size:
+171264
+Duplicates removed. New file size:
+171264
+Ambiguous SNPs removed. New file size:
+171264
+Final number of rows:
+171250
+ 
+Overlapping SNPs removed. 'no_overlap' file size:
+171250
+ 
+rsID	chr_name:chr_position:effect_allele:other_allele	chr_name	chr_position	effect_allele	other_allele	effect_weight	OR
+rs143735118	1:848671:A:G	1	848671	A	G	-0.10629984557896312	0.899155
+rs141958931	1:868683:T:C	1	868683	T	C	-0.08919958755886162	0.914663
+rs62639981	1:902108:T:C	1	902108	T	C	0.11290002201544962	1.11952
+rs138560419	1:929550:A:C	1	929550	A	C	-0.12240042943054918	0.884794
+ 
+ 
